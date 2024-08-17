@@ -3,7 +3,7 @@
 const http = require('http');
 const debug = require('debug')('api:server');
 const app = require('./app');
-const connectToDatabase = require('./src/repository/config/mongoose'); // Atualize o caminho se necessário
+const connectToDatabase = require('./src/config/mongoose'); // Atualize o caminho se necessário
 
 const port = normalizePort(process.env.PORT || '3000');
 const server = http.createServer(app);

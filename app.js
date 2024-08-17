@@ -3,7 +3,12 @@ const app = express();
 const fornecedoresRoutes = require('./src/routes/fornecedoresRoutes');
 const cors = require('cors');
 
-const allowedOrigins = ['http://localhost:4200', 'https://genidocesbrigadeiros.web.app', 'https://desafio-clarke-energia-fullstack.vercel.app', 'http://localhost:8080'];
+const allowedOrigins = [
+  'https://desafio-clarke-energia-fullstack.vercel.app',
+  'https://genidocesbrigadeiros.web.app',  
+  'http://localhost:4200',
+  'http://localhost:8080'
+];
 
 app.use(cors({
   origin: function(origin, callback) {
