@@ -4,8 +4,7 @@ const fornecedoresRoutes = require('./src/routes/fornecedoresRoutes');
 const cors = require('cors');
 
 const allowedOrigins = [
-  'https://desafio-clarke-energia-fullstack.vercel.app',
-  'https://genidocesbrigadeiros.web.app',  
+  'https://desafio-clarke-energia-fullstack.vercel.app', 
   'http://localhost:4200',
   'http://localhost:8080'
 ];
